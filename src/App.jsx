@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import PrivateRoute from './auth/PrivateRoute';
-require('dotenv').config();
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

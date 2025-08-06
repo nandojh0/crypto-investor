@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: process.env.API_DOMINIO, // el backend
+        target: process.env.VITE_API_DOMINIO, // el backend
         changeOrigin: true,
         secure: false,
       },
