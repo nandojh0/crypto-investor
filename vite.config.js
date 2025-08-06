@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/crypto-investor/',
+  base: './',
   server: {
     proxy: {
       '/api': {
