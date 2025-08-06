@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: process.env.VITE_API_DOMINIO, // el backend
+        target: 'secure-caring-production.up.railway.app', // el backend
         changeOrigin: true,
         secure: true,
       },
